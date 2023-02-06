@@ -9,7 +9,7 @@ export default function LoginButton({ children }) {
         return (
             <>
                 Signed in as {session.user.email} <br />
-                <UserInformation data={session.user} />
+                {/* <UserInformation data={session.user} /> */}
                 <button onClick={() => signOut()}>Sign Out</button>
                 {children}
             </>
